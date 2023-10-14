@@ -58,5 +58,4 @@ public class MemberController {
 		memberService.deleteMember(memberDto);
 		return new ResponseEntity<MemberDto>(HttpStatus.OK);
 	}
-	
 }
